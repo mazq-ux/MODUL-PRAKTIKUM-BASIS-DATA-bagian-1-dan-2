@@ -4,8 +4,8 @@ Setiap bab berisi penjelasan teori, petunjuk praktikum, dan contoh-contoh implem
 
 ---
 
-#  **BAB 1 – REVIEW KONVERSI ENTITY RELATIONSHIP (ER) 
-**DIAGRAM KE SKEMA RELASI ****
+#  **BAB 1 – REVIEW KONVERSI ENTITY RELATIONSHIP (ER) DIAGRAM KE SKEMA RELASI 
+
 
 
 ---
@@ -139,7 +139,7 @@ Bab ini membahas ulang dasar-dasar **SQL (Structured Query Language)** sebagai b
 
 ---
 
-## ## 🟦 **1. Pengertian SQL**
+ ## 🟦 **1. Pengertian SQL**
 
 SQL adalah bahasa yang digunakan untuk:
 
