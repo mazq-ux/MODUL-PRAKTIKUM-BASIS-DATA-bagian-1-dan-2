@@ -4,20 +4,20 @@ Setiap bab berisi penjelasan teori, petunjuk praktikum, dan contoh-contoh implem
 
 ---
 
-# 📘 **BAB 1 – REVIEW KONVERSI ERD KE SKEMA RELASI**
+#  **BAB 1 – REVIEW KONVERSI ENTITY RELATIONSHIP (ER) 
+**DIAGRAM KE SKEMA RELASI ****
 
-### *Rangkuman untuk Dokumentasi / README GitHub*
 
 ---
 
-## 📌 **1. Deskripsi Singkat**
+## **1. Deskripsi Singkat**
 
 Bab ini menjelaskan bagaimana *Entity Relationship Diagram (ERD)* dikonversi menjadi *Skema Relasi* yang siap diimplementasikan pada DBMS seperti MySQL.
 Materi ini adalah dasar paling penting dalam perancangan database relasional.
 
 ---
 
-## 📌 **2. Komponen Dasar ERD**
+## **2. Komponen Dasar ERD**
 
 **Entitas** → objek dunia nyata, menjadi tabel
 **Atribut** → ciri entitas, menjadi kolom
@@ -30,7 +30,7 @@ Materi ini adalah dasar paling penting dalam perancangan database relasional.
 
 ---
 
-## 📌 **3. Aturan Konversi ERD → Skema Relasi**
+## **3. Aturan Konversi ERD → Skema Relasi**
 
 ### **🔷 1. Entitas Kuat → Tabel**
 
@@ -100,7 +100,7 @@ Materi ini adalah dasar paling penting dalam perancangan database relasional.
 
 ---
 
-## 📌 **4. Studi Kasus: Sistem Apotek**
+## **4. Studi Kasus: Sistem Apotek**
 
 ERD sistem apotek dalam modul dikonversi menjadi 13 tabel, contoh:
 
@@ -120,7 +120,7 @@ Setiap tabel mengandung PK, FK, dan atribut sesuai aturan konversi.
 
 ---
 
-## 📌 **5. Kesimpulan**
+## **5. Kesimpulan**
 
 Konversi ERD ke skema relasi adalah proses penting dalam desain database.
 Aturan-aturan seperti konversi entitas kuat, entitas lemah, atribut multivalue, serta relasi 1:1, 1:N, dan N:M wajib dipahami agar menghasilkan database yang valid, konsisten, dan bebas anomali.
@@ -133,7 +133,7 @@ Berikut **ringkasan lengkap BAB 2** dari file *MODUL PRAKTIKUM BASIS DATA*, suda
 
 ---
 
-# 📘 **BAB 2 – REVIEW BAHASA SQL (Rangkuman README)**
+# 📘 **BAB 2 – PENGANTAR BASIS DATA-DDL
 
 Bab ini membahas ulang dasar-dasar **SQL (Structured Query Language)** sebagai bahasa standar untuk mengelola dan mengakses data pada sistem basis data relasional. Materi di dalamnya berfokus pada *DDL*, *DML*, *DCL*, serta penggunaan constraint untuk menjaga integritas data.
 
