@@ -24,7 +24,6 @@ Dokumentasi ini disusun agar dapat digunakan sebagai referensi pembelajaran mand
 
 ## Daftar Pertemuan Praktikum
 
-```markdown
 | Pertemuan | Modul Praktikum | Deskripsi |
 |-----------|------------------|-----------|
 | Pertemuan 1 | [pertemuan_1.ipynb](./pertemuan_1.ipynb) | Materi pada pertemuan ini mengulas BAB 1, yaitu proses lengkap konversi ERD ke skema relasi. Pembahasan mencakup pengertian entitas, atribut (simple, composite, multivalued, derived), domain, primary key, foreign key, weak entity, relationship, serta cardinality 1:1, 1:N, dan N:M. Selain itu dijelaskan juga relasi unary, ternary, dan generalisasi–spesialisasi. Contoh studi kasus sistem apotek digunakan untuk menghasilkan 13 tabel relasi sesuai aturan formal konversi. |
