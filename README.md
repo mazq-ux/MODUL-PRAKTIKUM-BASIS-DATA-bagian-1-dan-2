@@ -31,6 +31,7 @@ Dokumentasi ini disusun agar dapat digunakan sebagai referensi pembelajaran mand
 | **Pertemuan 2** | https://colab.research.google.com/drive/106fyKxybt6ZWIs3-rCgtsUnAT3GlHv3Q | Materi **BAB 2** membahas implementasi basis data menggunakan SQL. Topik meliputi DDL (CREATE, ALTER, DROP) dan DML (INSERT, UPDATE, DELETE). Juga dibahas query SELECT dengan WHERE, LIKE, BETWEEN, ORDER BY, fungsi agregasi, GROUP BY, HAVING, serta JOIN. Studi kasus apotek digunakan untuk implementasi tabel fisik dan constraint.                                                            |
 | **Pertemuan 3** | https://colab.research.google.com/drive/1qAZhjcKzd4gvq0g0M_P8YPgCKHoLmA7u | Materi **BAB 3** berfokus pada Data Definition Language (DDL). Pembahasan mencakup pembuatan database, implementasi tabel menggunakan CREATE TABLE, tipe data, constraint (PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK, DEFAULT, AUTO_INCREMENT), relasi antar tabel, penggunaan ALTER TABLE, serta penghapusan tabel menggunakan DROP dan TRUNCATE.
 | **Pertemuan 4** | https://colab.research.google.com/drive/1dR23gj-I4FlhES7HpM-ZLVA_SXhbZemk#scrollTo=dufD9ii209ww | Materi **BAB 4** berfokus pada perintah lanjutan Data Definition Language (DDL) yang digunakan untuk memodifikasi struktur tabel yang sudah dibuat. Pembahasan mencakup penggunaan ALTER TABLE untuk mengubah nama kolom (CHANGE), mengubah tipe data kolom (MODIFY), menambah kolom baru (ADD), serta menghapus kolom (DROP COLUMN). Selain itu, BAB 4 juga membahas penghapusan tabel menggunakan DROP TABLE serta penggantian nama tabel menggunakan RENAME TABLE, beserta contoh implementasinya pada database order entry.
+| **Pertemuan 5** | https://colab.research.google.com/drive/1xZv26lM_iAGpdGRcRqYtKjyGsXNLOJzo#scrollTo=NxuSJd6wE37B | Materi **BAB 5** memperkenalkan konsep dasar manipulasi data menggunakan perintah DML: **INSERT, UPDATE, DELETE, dan SELECT**. DML menjadi fondasi utama dalam pengelolaan data pada sistem basis data. Bab ini memberikan pemahaman praktis melalui studi kasus *order entry* untuk memudahkan penerapan perintah DML pada situasi nyata. Materi di BAB 5 juga menjadi dasar sebelum mempelajari query lanjutan seperti fungsi agregasi, subquery, dan join mendalam pada bab berikutnya.
 
 ---
 
@@ -122,6 +123,27 @@ Pembahasan meliputi:
 * Penyesuaian tipe data dan struktur kolom sesuai kebutuhan baru pada sistem.
 * Penerapan perubahan struktur pada tabel yang saling berelasi dalam database.
 * Studi kasus *order entry* digunakan untuk mempraktikkan penambahan kolom, modifikasi kolom, penggantian nama kolom, serta penghapusan kolom dan tabel.
+
+---
+
+## **BAB 5 — Data Manipulation Language (DML)**
+
+BAB 5 membahas bagaimana data di dalam tabel dapat ditambahkan, diubah, dihapus, dan ditampilkan sesuai kebutuhan sistem. Perintah DML digunakan untuk memanipulasi isi tabel tanpa mempengaruhi struktur tabel. Materi ini menjadi dasar dalam pengolahan data pada sistem basis data karena berkaitan langsung dengan proses operasional sehari-hari seperti input data, pembaruan data, dan pengambilan informasi.
+
+Pembahasan meliputi:
+
+* Penggunaan perintah dasar DML untuk manipulasi data, seperti:
+
+  * Menambahkan data baru menggunakan **INSERT**
+  * Mengubah data dalam baris tertentu menggunakan **UPDATE**
+  * Menghapus data dari tabel menggunakan **DELETE**
+  * Menampilkan data menggunakan **SELECT**
+* Penggunaan klausa **WHERE** untuk membatasi baris yang diproses pada UPDATE dan DELETE.
+* Penulisan nilai yang sesuai dengan tipe data pada setiap kolom.
+* Penerapan SELECT untuk menampilkan seluruh kolom, kolom tertentu, alias kolom, serta filter sederhana.
+* Penggunaan operator logika seperti AND dan OR dalam pemfilteran data.
+* Penjelasan format penulisan perintah DML yang benar agar tidak terjadi kesalahan saat memasukkan atau mengedit data.
+* Studi kasus *order entry* digunakan untuk mempraktikkan penambahan data pelanggan, pembaruan harga barang, penghapusan supplier tertentu, serta penampilan informasi berdasarkan kriteria tertentu.
 
 
 
