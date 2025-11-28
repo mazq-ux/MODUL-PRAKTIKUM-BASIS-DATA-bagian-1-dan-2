@@ -29,7 +29,8 @@ Dokumentasi ini disusun agar dapat digunakan sebagai referensi pembelajaran mand
 | --------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Pertemuan 1** |https://colab.research.google.com/drive/1Zh_tDravzGNwio69R6k4GStO5u_rA5zy| Materi pada pertemuan ini mengulas **BAB 1**, yaitu proses lengkap konversi ERD ke skema relasi. Pembahasan meliputi entitas, jenis atribut, domain, primary key, foreign key, weak entity, relationship, cardinality (1:1, 1:N, N:M), relasi unary, ternary, serta generalisasi–spesialisasi. Studi kasus sistem apotek digunakan untuk menghasilkan 13 tabel relasi sesuai aturan formal konversi. |
 | **Pertemuan 2** | https://colab.research.google.com/drive/106fyKxybt6ZWIs3-rCgtsUnAT3GlHv3Q | Materi **BAB 2** membahas implementasi basis data menggunakan SQL. Topik meliputi DDL (CREATE, ALTER, DROP) dan DML (INSERT, UPDATE, DELETE). Juga dibahas query SELECT dengan WHERE, LIKE, BETWEEN, ORDER BY, fungsi agregasi, GROUP BY, HAVING, serta JOIN. Studi kasus apotek digunakan untuk implementasi tabel fisik dan constraint.                                                            |
-| **Pertemuan 3** | https://colab.research.google.com/drive/1qAZhjcKzd4gvq0g0M_P8YPgCKHoLmA7u | Materi **BAB 3** berfokus pada Data Definition Language (DDL). Pembahasan mencakup pembuatan database, implementasi tabel menggunakan CREATE TABLE, tipe data, constraint (PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK, DEFAULT, AUTO_INCREMENT), relasi antar tabel, penggunaan ALTER TABLE, serta penghapusan tabel menggunakan DROP dan TRUNCATE.                                           |
+| **Pertemuan 3** | https://colab.research.google.com/drive/1qAZhjcKzd4gvq0g0M_P8YPgCKHoLmA7u | Materi **BAB 3** berfokus pada Data Definition Language (DDL). Pembahasan mencakup pembuatan database, implementasi tabel menggunakan CREATE TABLE, tipe data, constraint (PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK, DEFAULT, AUTO_INCREMENT), relasi antar tabel, penggunaan ALTER TABLE, serta penghapusan tabel menggunakan DROP dan TRUNCATE.
+| **Pertemuan 4** | https://colab.research.google.com/drive/1dR23gj-I4FlhES7HpM-ZLVA_SXhbZemk#scrollTo=dufD9ii209ww | Materi **BAB 4** berfokus pada perintah lanjutan Data Definition Language (DDL) yang digunakan untuk memodifikasi struktur tabel yang sudah dibuat. Pembahasan mencakup penggunaan ALTER TABLE untuk mengubah nama kolom (CHANGE), mengubah tipe data kolom (MODIFY), menambah kolom baru (ADD), serta menghapus kolom (DROP COLUMN). Selain itu, BAB 4 juga membahas penghapusan tabel menggunakan DROP TABLE serta penggantian nama tabel menggunakan RENAME TABLE, beserta contoh implementasinya pada database order entry.
 
 ---
 
@@ -101,6 +102,29 @@ BAB 3 membahas bagaimana struktur fisik database dibangun sesuai skema relasi:
 * Modifikasi struktur tabel menggunakan ALTER TABLE.
 * Penghapusan tabel menggunakan DROP TABLE dan pengosongan data menggunakan TRUNCATE TABLE.
 * Studi kasus apotek digunakan untuk membuat struktur tabel lengkap yang saling berelasi.
+---
+
+
+## **BAB 4 — ALTER, MODIFY, DROP, dan RENAME (DDL Lanjutan)**
+
+BAB 4 membahas bagaimana struktur tabel yang telah dibuat dapat dimodifikasi sesuai kebutuhan sistem. Perintah DDL lanjutan ini digunakan untuk mengubah, menambah, atau menghapus bagian tertentu dari tabel tanpa perlu membuat ulang tabel dari awal.
+
+Pembahasan meliputi:
+
+* Penggunaan ALTER TABLE untuk memodifikasi struktur tabel, seperti:
+
+  * Mengubah nama kolom menggunakan CHANGE
+  * Mengubah tipe data kolom menggunakan MODIFY
+  * Menambahkan kolom baru menggunakan ADD
+  * Menghapus kolom menggunakan DROP COLUMN
+* Penghapusan tabel secara permanen menggunakan DROP TABLE.
+* Penggantian nama tabel menggunakan RENAME TABLE.
+* Penyesuaian tipe data dan struktur kolom sesuai kebutuhan baru pada sistem.
+* Penerapan perubahan struktur pada tabel yang saling berelasi dalam database.
+* Studi kasus *order entry* digunakan untuk mempraktikkan penambahan kolom, modifikasi kolom, penggantian nama kolom, serta penghapusan kolom dan tabel.
+
+
+
 
 ---
 
@@ -115,4 +139,3 @@ Repository ini terbuka untuk pengembangan lebih lanjut. Jika terdapat saran, per
 ---
 
 
-Cukup bilang **"lanjutkan"**.
